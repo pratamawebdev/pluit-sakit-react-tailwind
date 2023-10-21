@@ -18,9 +18,9 @@ const FilmLayouts = (props) => {
               <path
                 d="M10.5 21L17.5 14L10.5 7"
                 stroke="white"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </button>
