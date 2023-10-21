@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.ellipse {
+  border-radius: 100px;
+  border: 1px solid var(--text-slate-color-20, #cbd1d8);
+  padding: 4px 12px;
+}
+.hero {
+  background: url("https://s3-alpha-sig.figma.com/img/e2f7/d042/ebc9d3d8d61582458e8ddbd99628e2cf?Expires=1698624000&Signature=mvlDIBcSIm1~TCu9DP6BRNUdVQUhSx3XvROdTYdY2bUSb4VvhUTymC1EttC6iWEhn84sTjSJc93ipRSxD-tsUqaWmuxu9kXkgSL~hEgbhWMfYysftQ9mkoUyeYVO46pBnQZ7VPPamqnSPLdLqHHRcuaDFDwfuOkkVznxy4ivPPTBbXIieyKEkacG~gfnqVw8~nOyyn1tAQe4cwFn9RXxnXBbta~iq3qn0S-4-FUSsy022ngC8PPPZTPtxpAdB58lybGwSgoFyN9~W1m3Kh7A0RL-SHYqtvAFT3yWp6lKJnFVcdGLZAyZkGRFR8kgDKM5ZI8JqVXD-uJtwvEBdiGRFA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"),
+    lightgray 50% / cover no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.text-author {
+  color: var(--text-slate-color-30, #b1b9c5);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.button {
+  border-radius: 10px;
+}
+
+.genre-button {
+  border-radius: 100px;
+  border: 1px solid var(--text-slate-color-01, #fff);
+  padding: 16px 24px;
+}
