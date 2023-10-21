@@ -102,16 +102,16 @@ const BerandaPage = () => {
                 <path
                   d="M1 12.2882C1 12.2882 5 4.28821 12 4.28821C19 4.28821 23 12.2882 23 12.2882C23 12.2882 19 20.2882 12 20.2882C5 20.2882 1 12.2882 1 12.2882Z"
                   stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M12 15.2882C13.6569 15.2882 15 13.9451 15 12.2882C15 10.6314 13.6569 9.28821 12 9.28821C10.3431 9.28821 9 10.6314 9 12.2882C9 13.9451 10.3431 15.2882 12 15.2882Z"
                   stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
               <span className="text-[14px] font-medium">Lihat Film</span>
