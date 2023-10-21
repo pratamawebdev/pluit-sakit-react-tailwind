@@ -25,7 +25,9 @@ const FilmLayouts = (props) => {
             </svg>
           </button>
         </div>
-        <div className="grid grid-cols-6 gap-[21px]">{children}</div>
+        <div className=" grid-cols-1 grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-[21px]">
+          {children}
+        </div>
       </div>
     </section>
   );

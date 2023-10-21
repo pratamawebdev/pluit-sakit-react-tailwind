@@ -3,7 +3,7 @@ const CardActor = (props) => {
   return (
     <div
       key={key}
-      className="bg-[#0F172A] h-[323px] w-[199px] rounded-[10px] flex flex-col"
+      className="bg-[#0F172A] h-[323px] w-[199px] rounded-[10px] flex flex-col mx-auto"
     >
       <img src={url} alt="" className="w-[199px] h-[252px] rounded-[10px]" />
 

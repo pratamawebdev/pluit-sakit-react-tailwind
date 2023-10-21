@@ -2,28 +2,28 @@ const FooterLayouts = () => {
   return (
     <footer className="w-full text-white bg-[#0F172A] pt-[62px]">
       <div className="container mx-auto flex flex-col gap-20 ">
-        <div className="flex flex-row gap-[61px] justify-between">
-          <ul className="gap-[30px] flex flex-col">
+        <div className="flex flex-col md:flex-row gap-[61px] justify-between">
+          <ul className="gap-[30px] flex flex-row md:flex-col">
             <li>FAQ</li>
             <li>Relasi Investor</li>
             <li>Cara Menonton</li>
             <li>Informasi Perusahaan</li>
             <li>Hanya di Pluit Sakti</li>
           </ul>
-          <ul className="gap-[30px] flex flex-col">
+          <ul className="gap-[30px] flex flex-row md:flex-col">
             <li>Pusat Bantuan</li>
             <li>Pekerjaan</li>
             <li>Aturan Penggunaan</li>
             <li>Kontak Kami</li>
           </ul>
-          <ul className="gap-[30px] flex flex-col">
+          <ul className="gap-[30px] flex flex-row md:flex-col">
             <li>Akun</li>
             <li>Privasi</li>
             <li>Tes Kecepatan</li>
             <li>Pusat Media</li>
             <li>Pengaturan Kuki</li>
           </ul>
-          <div>
+          <div className="flex flex-col">
             <span className="">Dapatkan Aplikasi</span>
             <div className="flex flex-col  gap-[8px] mt-[30px] mb-[48px]">
               <img
@@ -113,7 +113,7 @@ const FooterLayouts = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between border-t border-t-[#545454] py-[34px] border-solid">
+        <div className="flex-col gap-10 md:flex-row items-center flex justify-between border-t border-t-[#545454] py-[34px] border-solid">
           <div className="flex gap-[12.82px] items-center">
             <img
               src="https://s3-alpha-sig.figma.com/img/8f80/c9c1/8b0b2470a07543243ce6b2348eea2067?Expires=1698624000&Signature=Y7fVmeyGMofJ2Vd0rnK-Zw9pVDJrAGtm9vbaixSBP9H9NOlOrhqLYQY2jIyB8u7GhoD0n0-zYJJdJsGIwYzBHf~oyYzKMWSdVEsF~mNV0gBsJ2w4lLxRA~lI-~UuIvndVcKK8Q~fkbYhZU3JAuw0TUq3xQD5VBZLLhRU4P88HGM98LYlfMfJt61ZZ~0ElqJzaf7WqC7TBn4grljIsCv8DjX9lnzFs04pGueCPH5kLH~iL4hb8NOoqUrx1mcF~EgNFsoKHzUZwC0PcuKVNmwH2cqKiIO954SSA3FMtktYNy59erCswSUMv3WntbvQACq2Sl8cL~eg~GahChny9QKKlA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"

@@ -2,7 +2,7 @@ import Input from "../../Elements/Input/Index";
 
 const Search = () => {
   return (
-    <div className="relative w-[309px] gap-[12px] flex">
+    <div className="relative w-[309px] gap-[12px] bg-[#000000] flex">
       <span className="absolute inset-y-0 left-0 pl-3 flex items-center">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -10,7 +10,7 @@ const Search = () => {
           viewBox="0 0 24 24"
           strokeWidth={1.5}
           stroke="currentColor"
-          className="w-5 h-5"
+          className="w-5 h-5 text-[#64748B]"
         >
           <path
             strokeLinecap="round"
@@ -21,7 +21,7 @@ const Search = () => {
       </span>
       <form>
         <Input
-          className="w-full border-b pl-10 pr-4 py-2 placeholder:text-[16px] placeholder:font-medium focus:outline-none focus:shadow-outline"
+          className="text-white w-full border-b pl-10 pr-4 py-2 placeholder:text-[16px] bg-[#000000]  placeholder:font-medium focus:outline-none focus:shadow-outline"
           type="text"
           placeholder="Cari Film..."
         />

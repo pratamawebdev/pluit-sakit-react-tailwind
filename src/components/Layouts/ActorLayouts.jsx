@@ -17,9 +17,9 @@ const ActorLayouts = (props) => {
                 <path
                   d="M31.25 12.5L18.75 25L31.25 37.5"
                   stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </button>
@@ -34,15 +34,17 @@ const ActorLayouts = (props) => {
                 <path
                   d="M18.75 37.5L31.25 25L18.75 12.5"
                   stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </button>
           </div>
         </div>
-        <div className="grid grid-cols-6 gap-[21px]">{children}</div>
+        <div className="grid-cols-1 grid sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-[21px]">
+          {children}
+        </div>
       </div>
     </section>
   );
